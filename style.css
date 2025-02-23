@@ -4,15 +4,18 @@ body{
   margin:0;
 }
 .j1{
-    width:70%;
+    width:80%;
     background-color:cornflowerblue;
-    margin:auto;
     text-align: center;
     transition: transform .5s;
+    max-width:100vw;
+    margin:10px;
+    transition: transform .5s;
+    border-radius: 20px;
 }
 .j1 img{
 
-margin-left: 70px;
+margin:auto;
 }
 header{
     background-color:green;
@@ -44,10 +47,12 @@ header nav a:hover{
     color:chartreuse;
     text-align: center;
 }
+
 .j1 p{
     color:black;
-        text-indent: 75px;
-        text-align: justify;
+    margin: 10px;
+    text-align: center;
+    text-indent:20px;
       }
 
 .j1 span{
@@ -56,9 +61,10 @@ header nav a:hover{
 }
 @media only screen and (max-width:320px){
     .j1{
-        width: 100%;
+        width: 90%;
      }
      
+
     .j1 img{
     height:150px;
     width:150px;
