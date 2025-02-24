@@ -59,6 +59,17 @@ header nav a:hover{
     color: crimson;
     text-align: center;
 }
+footer {
+    background-color:yellow;
+    color:black;
+    text-align: center;
+    font-size:x-small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
 @media only screen and (max-width:320px){
     .j1{
         width: 100%;
@@ -66,6 +77,7 @@ header nav a:hover{
      
 
     .j1 img{
+        margin: auto;
     height:100px;
     width:100px;
     grid-template-columns:repeat(1, 1fr);
